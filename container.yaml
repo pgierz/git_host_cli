@@ -2,15 +2,15 @@
 #
 # Dr. Paul Gierz
 # AWI Scientific Computing
-# December, 2021
+# Jan 1, 2022
 docker: ghcr.io/pgierz/git_host_cli 
 url: https://github.com/pgierz/git_host_cli/pkgs/container/git_host_cli
 maintainer: "@pgierz"
 description: Command line interface for GitHub and GitLab 
 latest: 
-  v1.0.0: sha256:966f70398d093b7d6ffc1dcd5f7523237175e5db9d68839689fa457b653044dd
+  1.0.0: sha256:4816c60832c53463672086d2ffe5771f7f71d3299167d9e91742dd7317eecd79
 tags:
-   v1.0.0: sha256:966f70398d093b7d6ffc1dcd5f7523237175e5db9d68839689fa457b653044dd
+   1.0.0: sha256:4816c60832c53463672086d2ffe5771f7f71d3299167d9e91742dd7317eecd79
 aliases:
   gh: /usr/local/bin/gh
   glab: /usr/bin/glab 
