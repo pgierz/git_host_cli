@@ -1,0 +1,16 @@
+# Command line interface for GitHub (gh) and GitLab (glab)
+#
+# Dr. Paul Gierz
+# AWI Scientific Computing
+# December, 2021
+docker: ghcr.io/pgierz/git_host_cli 
+url: https://github.com/pgierz/git_host_cli/pkgs/container/git_host_cli
+maintainer: "@pgierz"
+description: Command line interface for GitHub and GitLab 
+latest: 
+  v1.0.0: sha256:966f70398d093b7d6ffc1dcd5f7523237175e5db9d68839689fa457b653044dd
+tags:
+   v1.0.0: sha256:966f70398d093b7d6ffc1dcd5f7523237175e5db9d68839689fa457b653044dd
+aliases:
+  gh: /usr/local/bin/gh
+  glab: /usr/bin/glab 
